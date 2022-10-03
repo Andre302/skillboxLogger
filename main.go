@@ -19,6 +19,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("error while opening", err)
 	}
+
 	logrus.Info("run")
 	log.SetOutput(file)
 
